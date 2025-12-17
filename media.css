@@ -1,0 +1,62 @@
+@media screen and (max-width: 480px) {
+
+.logo img {
+  width: 4.5rem;
+}
+.menubar ul li a {
+  font-size: 1.5rem;
+}
+.introcontainer {
+    height: 300px;
+}
+.overlay-text {
+    top: 45%;
+    font-size: 40px;
+}
+.introsub {
+    font-size: 15px;
+}
+
+.bodymain {
+    flex-direction: column;
+    justify-content: start;
+    width: 85%;
+}
+.bodymain .bodytext {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 440px;
+}
+
+#bodyh1 {
+    margin: 2rem 2rem;
+    text-align: center;
+}
+.bodyp {
+ font-size: 12px;
+ margin: 2rem 2.5rem;
+ text-wrap: pretty; 
+ hyphens: auto; 
+}
+
+.bodymain .bodyimg {
+width: 110%;
+margin: 15px 15px;
+}
+
+.footer-logo {
+   margin-left: 2px;
+}
+.footer-col h4{
+    margin: 0 2px 35px 2px;
+}
+.footer-col{
+    width: 100%;
+}
+
+.crypto-list {
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+
+
+}
