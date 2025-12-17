@@ -1,0 +1,214 @@
+/* Responsive Design */
+@media (max-width: 1400px) {
+  .dashboard-container {
+    grid-template-columns: 1fr;
+  }
+
+  .telegram-card {
+    grid-column: span 3;
+  }
+
+  .dashboard-sidebar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .credit-card {
+    width: 280px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-content {
+    padding: 30px;
+  }
+
+  .transfer-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .trade-section {
+    grid-template-columns: 1fr;
+  }
+
+  .plan-card {
+    grid-column: span 1;
+  }
+
+  .promo-card {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .promo-info {
+    max-width: 100%;
+  }
+
+  .credit-card {
+    width: 100%;
+    transform: rotate(0);
+  }
+
+  .credit-card:hover {
+    transform: translateY(-10px) rotate(0);
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    width: 80px;
+    padding: 25px 0;
+  }
+
+  .logo {
+    padding: 0 15px 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo svg text {
+    display: none;
+  }
+
+  .nav-item span,
+  .premium-box h3 {
+    display: none;
+  }
+
+  .nav-item {
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .nav-item i {
+    margin-right: 0;
+    font-size: 20px;
+  }
+
+  .premium-box {
+    padding: 20px 15px;
+    margin: 15px;
+  }
+
+  .premium-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .main-content {
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-right {
+    width: 100%;
+    margin-top: 25px;
+    justify-content: space-between;
+  }
+
+  .search-bar {
+    width: 50%;
+  }
+
+  .transfer-cards,
+  .dashboard-sidebar {
+    grid-template-columns: 1fr;
+  }
+
+  .telegram-card {
+    height: auto;
+  }
+
+  .welcome-title {
+    font-size: 24px;
+  }
+
+  .telegram-amount {
+    font-size: 32px;
+  }
+
+  .trade-section {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+.header-logo {
+   margin: 5px 1.5rem;
+}
+  .logo img {
+  width: 4rem;
+}
+
+.greeting {
+  margin-top: 10px;
+}
+
+.nav-menu {
+ 
+  margin-top: 2.3rem;
+}
+
+  .search-bar {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .header-right {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .time-filter {
+    overflow-x: auto;
+    padding: 5px;
+  }
+
+  .time-option {
+    padding: 8px 12px;
+    white-space: nowrap;
+  }
+
+  .promo-title {
+    font-size: 18px;
+  }
+
+  .promo-desc {
+    font-size: 12px;
+  }
+
+  .promo-btn {
+    padding: 12px 20px;
+  }
+
+
+.plan-status {
+  font-size: 14px;
+}
+
+.plan-percentage {
+  font-size: 20px;
+}
+
+.plan-progress {
+  width: 70px;
+  height: 70px;
+}
+
+#billingdays {
+  font-size: 15px;
+}
+
+}
